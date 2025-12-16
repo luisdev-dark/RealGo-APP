@@ -10,9 +10,10 @@
   },
   "dependencies": {
     "expo": "~54.0.29",
-    "expo-camera": "^17.0.10",
-    "expo-image-picker": "^17.0.10",
-    "expo-location": "^19.0.8",
+    "expo-camera": "~17.0.10",
+    "expo-dev-client": "^6.0.20",
+    "expo-image-picker": "~17.0.10",
+    "expo-location": "~19.0.8",
     "expo-notifications": "^0.32.15",
     "expo-router": "~6.0.19",
     "expo-system-ui": "^6.0.9",

@@ -28,11 +28,12 @@
         "backgroundColor": "#ffffff"
       },
       "permissions": [
-        "ACCESS_FINE_LOCATION",
-        "ACCESS_COARSE_LOCATION",
-        "CAMERA",
-        "READ_EXTERNAL_STORAGE",
-        "VIBRATE"
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.VIBRATE",
+        "android.permission.RECORD_AUDIO"
       ],
       "config": {
         "googleMaps": {
@@ -42,11 +43,18 @@
     },
     "plugins": [
       "expo-router",
+      "expo-dev-client",
       "expo-camera",
       "expo-image-picker",
       "expo-location",
       "expo-notifications",
       "expo-system-ui"
-    ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "8b061316-2419-41f5-8169-c10ce0be08ca"
+      }
+    }
   }
 }
